@@ -6,7 +6,7 @@
 /* shared style */
 .container {
   max-width: 1450px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 .font-inter {
   font-family: "Inter", sans-serif;
@@ -20,6 +20,7 @@
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600px;
+  cursor: pointer;
 }
 
 /* main style */
@@ -27,7 +28,7 @@ header {
   background-color: #ffffff;
 }
 .log img {
-  padding: 16px 0 16px 120px;
+  padding: 16px 0;
 }
 
 nav {
@@ -47,4 +48,54 @@ nav .menu a {
   font-size: 16px;
   color: #000000;
   font-weight: 500;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 674px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-content {
+  max-width: 800px;
+}
+
+.banner-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  /* line-height: 84px; */
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+.banner-content p {
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 24; */
+  margin-bottom: 32px;
+}
+
+.banner-btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+}
+
+/* Second button-er*/
+.btn-outline {
+  font-size: 16px;
+  font-weight: 600
+  color:#FFFFFF;
+}
+.btn-outline:hover {
+  cursor: pointer;
 }
