@@ -34,12 +34,17 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.menu {
+  list-style: none;
+}
 nav .menu {
   display: flex;
   justify-content: center;
   list-style: none;
   align-items: center;
   gap: 32px;
+  margin: 0 auto;
+  list-style: none;
 }
 nav .menu a {
   text-decoration: none;
@@ -65,6 +70,17 @@ nav .menu a {
 
 .banner-content {
   max-width: 800px;
+}
+.early-badge {
+  display: inline-block;
+  gap: 6px;
+  background: #ffffff;
+  color: #469165;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .banner-content h1 {
@@ -97,6 +113,10 @@ nav .menu a {
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
+  background: transparent;
+  padding: 13px 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .btn-outline:hover {
   cursor: pointer;
@@ -133,12 +153,15 @@ nav .menu a {
 .skill-card img {
   align-items: center;
   background-color: red;
+  display: block;
+  margin: 0 auto 16px auto;
 }
 .skill-card h3 {
   font-size: 24px;
   font-weight: 600;
   color: #001931;
   margin-bottom: 16px;
+  align-items: center;
 }
 .skill-card p {
   font-size: 16px;
