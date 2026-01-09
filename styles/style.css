@@ -194,3 +194,40 @@ nav .menu a {
   color: #001931;
   margin-bottom: 16px;
  }
+ .access-box{
+  text-align: center;
+ }
+ .early-access {
+  background-color: #F7F6F2;
+  padding: 40px;
+  /* max-width: 1360px; */
+  text-align: center;
+  margin: 2px 120px 120px 120px;
+ }
+ .access-box h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+ }
+ .access-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  text-align: center;
+ }
+ .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    padding: 16px;
+}
+.secondary-text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
