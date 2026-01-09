@@ -20,7 +20,7 @@
   padding: 13px 16px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 600px;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -72,11 +72,10 @@ nav .menu a {
   font-weight: bold;
   line-height: 84px;
   margin-bottom: 16px;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
-#color-green{
-  color: #30B868;
+#color-green {
+  color: #30b868;
 }
 
 .banner-content p {
@@ -96,77 +95,75 @@ nav .menu a {
 /* Second button-er*/
 .btn-outline {
   font-size: 16px;
-  font-weight: 600
-  color: #FFFFFF;
+  font-weight: 600;
+  color: #ffffff;
 }
 .btn-outline:hover {
   cursor: pointer;
 }
-.section-heading{
-  max-width: 1360px ;
+.section-heading {
+  max-width: 1360px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 44px;
 }
-.section-heading h2{
+.section-heading h2 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
 }
-.section-heading p{
+.section-heading p {
   font-size: 16px;
   line-height: 20px;
   color: #627382;
 }
- #skills .skills-container{
+#skills .skills-container {
   margin: 0 auto;
-} 
+}
 
-#skills .skills-container .skill-box{
+#skills .skills-container .skill-box {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.skill-box .skill-card{
+.skill-box .skill-card {
   padding: 30px;
   max-width: 322px;
 }
-.skill-card img{
-  display: flex;
-  justify-content: center;
+.skill-card img {
   align-items: center;
   background-color: red;
 }
-.skill-card h3{
+.skill-card h3 {
   font-size: 24px;
   font-weight: 600;
   color: #001931;
   margin-bottom: 16px;
 }
-.skill-card p{
+.skill-card p {
   font-size: 16px;
   line-height: 20px;
   color: #627382;
 }
-.brain{
+.brain {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
-  padding: 100px 0 ;
+  padding: 100px 0;
 }
 /* .brain img{
   display: block;
 } */
- .brain-info span{
+.brain-info span {
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
   color: #469165;
   text-transform: uppercase;
   margin-bottom: 16px;
- }
- .brain-info h2{
+}
+.brain-info h2 {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
@@ -174,17 +171,17 @@ nav .menu a {
   text-transform: capitalize;
   max-width: 700px;
   line-height: 58px;
- }
- .brain-info p{
+}
+.brain-info p {
   font-size: 16px;
   line-height: 20px;
   color: #627382;
   margin-bottom: 40px;
- }
- .check-list{
+}
+.check-list {
   list-style: none;
- }
- .check-list li {
+}
+.check-list li {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -193,41 +190,84 @@ nav .menu a {
   line-height: 20px;
   color: #001931;
   margin-bottom: 16px;
- }
- .access-box{
+}
+.access-box {
   text-align: center;
- }
- .early-access {
-  background-color: #F7F6F2;
+}
+.early-access {
+  background-color: #f7f6f2;
   padding: 40px;
   /* max-width: 1360px; */
   text-align: center;
   margin: 2px 120px 120px 120px;
- }
- .access-box h2{
+  margin-bottom: 120px;
+}
+.access-box h2 {
   font-size: 40px;
   font-weight: bold;
   color: #001931;
   margin-bottom: 16px;
- }
- .access-box p {
+}
+.access-box p {
   font-size: 16px;
   line-height: 24px;
   color: #627382;
   margin: 0 auto;
   margin-bottom: 24px;
   text-align: center;
- }
- .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    padding: 16px;
 }
-.secondary-text{
+.btn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.secondary-text {
   font-size: 16px;
   line-height: 20px;
   color: #627382;
+}
+.footer {
+  background-color: #001931;
+  padding: 60px 0 20px 0;
+  margin-top: 50px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-logo img {
+  height: 60px;
+  margin-bottom: 80px;
+}
+.social-section h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+.social-links a {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.footer-line {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 30px;
+}
+.copyright {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  text-align: center;
 }
