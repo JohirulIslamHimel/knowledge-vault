@@ -34,18 +34,17 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.menu {
-  list-style: none;
-}
+
 nav .menu {
+  list-style: none;
   display: flex;
   justify-content: center;
   list-style: none;
   align-items: center;
   gap: 32px;
   margin: 0 auto;
-  list-style: none;
 }
+
 nav .menu a {
   text-decoration: none;
   font-size: 16px;
@@ -97,7 +96,8 @@ nav .menu a {
 .banner-content p {
   font-size: 18px;
   font-weight: 400;
-  /* line-height: 24px; */
+  line-height: 24px;
+  color: #ffffff;
   margin-bottom: 32px;
 }
 
