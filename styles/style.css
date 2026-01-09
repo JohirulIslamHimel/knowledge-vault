@@ -156,18 +156,24 @@ nav .menu a {
 #skills .skills-container .skill-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
+  padding: 24px;
 }
 .skill-box .skill-card {
-  padding: 30px;
-  max-width: 322px;
+  background-color: #ffffff;
+  padding: 24px;
+  max-width: 300px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.081);
+  text-align: center;
 }
 .skill-card img {
+  display: block;
   align-items: center;
   background-color: red;
   display: block;
-  margin: 0 auto 16px auto;
-  border-radius: 50%;
+  margin: 0 auto 16px;
+  border-radius: 50px;
 }
 .skill-card h3 {
   font-size: 24px;
